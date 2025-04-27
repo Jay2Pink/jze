@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jze</artifactId>
+        <groupId>org.jze</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>jze-extend</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jze-monitor-admin</module>
+        <module>jze-snailjob-server</module>
+    </modules>
+
+</project>

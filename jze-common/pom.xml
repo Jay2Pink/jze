@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jze</artifactId>
+        <groupId>org.jze</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>jze-common-bom</module>
+        <module>jze-common-social</module>
+        <module>jze-common-core</module>
+        <module>jze-common-doc</module>
+        <module>jze-common-excel</module>
+        <module>jze-common-idempotent</module>
+        <module>jze-common-job</module>
+        <module>jze-common-log</module>
+        <module>jze-common-mail</module>
+        <module>jze-common-mybatis</module>
+        <module>jze-common-oss</module>
+        <module>jze-common-ratelimiter</module>
+        <module>jze-common-redis</module>
+        <module>jze-common-satoken</module>
+        <module>jze-common-security</module>
+        <module>jze-common-sms</module>
+        <module>jze-common-web</module>
+        <module>jze-common-translation</module>
+        <module>jze-common-sensitive</module>
+        <module>jze-common-json</module>
+        <module>jze-common-encrypt</module>
+        <module>jze-common-tenant</module>
+        <module>jze-common-websocket</module>
+        <module>jze-common-sse</module>
+    </modules>
+
+    <artifactId>jze-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
