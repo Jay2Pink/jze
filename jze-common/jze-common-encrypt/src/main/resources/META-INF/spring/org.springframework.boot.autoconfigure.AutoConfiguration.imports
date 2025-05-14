@@ -1,0 +1,3 @@
+org.jze.common.encrypt.config.EncryptorAutoConfiguration
+org.jze.common.encrypt.config.ApiDecryptAutoConfiguration
+

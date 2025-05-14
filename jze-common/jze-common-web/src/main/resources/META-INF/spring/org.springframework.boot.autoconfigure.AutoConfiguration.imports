@@ -1,0 +1,5 @@
+org.jze.common.web.config.CaptchaConfig
+org.jze.common.web.config.FilterConfig
+org.jze.common.web.config.I18nConfig
+org.jze.common.web.config.ResourcesConfig
+org.jze.common.web.config.UndertowConfig
